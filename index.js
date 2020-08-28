@@ -4,7 +4,7 @@ function build_app(){
     var app_window = new BrowserWindow({
         webPreferences : {
             nodeIntegration : true,
-            webviewTag:true
+            webviewTag: true
         },
         title:'Download manager'
     });
