@@ -10,4 +10,5 @@ function build_app(){
     });
     app_window.setMenu(null);
     app_window.loadFile('./assests/index.html');
+    app_window.webContents.openDevTools();
 }

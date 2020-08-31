@@ -1,0 +1,27 @@
+html{
+  overflow-y: hidden
+}
+
+.loader{
+  animation : loader .5s linear infinite;
+}
+
+@keyframes loader{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.download-box{
+  position: fixed;
+  height : 100px;
+  width:400px;
+  background-color:#323232;
+  right:60px;
+  top : 55px;
+
+}
