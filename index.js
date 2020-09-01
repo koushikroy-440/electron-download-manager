@@ -6,9 +6,10 @@ function build_app(){
             nodeIntegration : true,
             webviewTag: true
         },
+        icon:'assests/images/icon.png',
         title:'Download manager'
     });
     app_window.setMenu(null);
     app_window.loadFile('./assests/index.html');
-    app_window.webContents.openDevTools();
+    //app_window.webContents.openDevTools();
 }
